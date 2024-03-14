@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasses e pseudoelementos</title>
+    <link rel="stylesheet" href="style.css">
+    <style> /*pseudoclasses só :  e pseudoelementos ::*/
+    /* #  = id
+       .  = class
+       :  = pseudo-class
+       :: = pseudo-element
+        > = children
+    */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: crimson;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration:underline;
+        }
+         a::after {
+            content: '♛';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+         }
+
+         .especial {
+            background-color: blueviolet;
+        .especial::before{
+            content: '♞';
+        }
+         }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li><a href="https://canaltech.com.br/internet/hacker-brasileiro-ghost-e-anonymous-derrubam-grande-site-de-pedofilia-239966/">Meu linkedln</a></li>
+        <li><a href="https://e-safer.com.br/grupos-hackers-com-atividade-no-brasil/">Meu instagram</a></li>
+        <li><a href="https://canaltech.com.br/internet/hacker-brasileiro-ghost-e-anonymous-derrubam-grande-site-de-pedofilia-239966/">Meu telegram</a></li>
+        <li><a href="https://canaltech.com.br/internet/hacker-brasileiro-ghost-e-anonymous-derrubam-grande-site-de-pedofilia-239966/" class="especial">Meu email</a></li>
+    </ul>
+</body>
+</html>

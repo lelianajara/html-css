@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*Tudo em html é id e css é #
+
+id é único e class pode ser múltiplo*/
+
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1#pimenta {
+    text-align: center;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.basico {
+    color: aqua;
+}
+
+.avancado {
+    color: blue;
+}
