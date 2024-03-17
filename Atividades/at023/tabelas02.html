@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela População</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+
+        caption {
+            font-size: 25px;
+            background-color: lightgray;
+            font-weight: bold;
+        }
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        thead {
+            
+            color: white;
+        }
+        
+        tfoot {
+            background-color: rgba(0, 0, 0, 0.589);
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color:  rgba(0, 0, 0, 0.733);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+    
+    TABLE
+    CAPTION
+    THEAD
+    tr, td, th
+    TBODY
+    tr,td,th
+    TFOOT
+    tr,td,th-->
+
+    <table>
+        <caption>População dos Estados Brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul </td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                    <td class="num"><strong>Número</strong></tr>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fuga. Dolorem amet facere tenetur natus corporis nihil consectetur ex obcaecati optio temporibus, quam aspernatur accusamus in sint id rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi delectus numquam quos explicabo rem, nulla laudantium quis officia dicta distinctio eveniet pariatur, illum eaque consequatur obcaecati aut. Deserunt, magnam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio repellat tempore accusamus voluptate minima, obcaecati ullam ad aspernatur. Mollitia amet cumque deserunt maxime consectetur distinctio velit, in sit optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus eum, nobis molestiae aspernatur aliquam illo tenetur mollitia corrupti! Dolorem recusandae suscipit beatae natus facilis quos reiciendis voluptatibus, omnis neque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fuga. Dolorem amet facere tenetur natus corporis nihil consectetur ex obcaecati optio temporibus, quam aspernatur accusamus in sint id rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi delectus numquam quos explicabo rem, nulla laudantium quis officia dicta distinctio eveniet pariatur, illum eaque consequatur obcaecati aut. Deserunt, magnam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio repellat tempore accusamus voluptate minima, obcaecati ullam ad aspernatur. Mollitia amet cumque deserunt maxime consectetur distinctio velit, in sit optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus eum, nobis molestiae aspernatur aliquam illo tenetur mollitia corrupti! Dolorem recusandae suscipit beatae natus facilis quos reiciendis voluptatibus, omnis neque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fuga. Dolorem amet facere tenetur natus corporis nihil consectetur ex obcaecati optio temporibus, quam aspernatur accusamus in sint id rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi delectus numquam quos explicabo rem, nulla laudantium quis officia dicta distinctio eveniet pariatur, illum eaque consequatur obcaecati aut. Deserunt, magnam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio repellat tempore accusamus voluptate minima, obcaecati ullam ad aspernatur. Mollitia amet cumque deserunt maxime consectetur distinctio velit, in sit optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus eum, nobis molestiae aspernatur aliquam illo tenetur mollitia corrupti! Dolorem recusandae suscipit beatae natus facilis quos reiciendis voluptatibus, omnis neque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fuga. Dolorem amet facere tenetur natus corporis nihil consectetur ex obcaecati optio temporibus, quam aspernatur accusamus in sint id rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi delectus numquam quos explicabo rem, nulla laudantium quis officia dicta distinctio eveniet pariatur, illum eaque consequatur obcaecati aut. Deserunt, magnam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio repellat tempore accusamus voluptate minima, obcaecati ullam ad aspernatur. Mollitia amet cumque deserunt maxime consectetur distinctio velit, in sit optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus eum, nobis molestiae aspernatur aliquam illo tenetur mollitia corrupti! Dolorem recusandae suscipit beatae natus facilis quos reiciendis voluptatibus, omnis neque.</p>
+</body>
+</html>
