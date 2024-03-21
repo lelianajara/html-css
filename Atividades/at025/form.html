@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário básico</title>
+</head>
+<body>
+    <form autocomplete="off" action="cadastro.php" method="post" >
+        <!--Label é muito importante para identificar qual palavra se liga a determinada caixa-->
+
+
+        <!--Só pode usar o método GET só até 3 mil bytes e campos sensíveis e envios de fotos-->
+       
+        <p><label for="inome">Seu nome: </label>
+            <input type="text" name="Nome" id="inome"></p>
+        <p><label for="isobrenome">Seu sobrenome:</label> 
+            <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><button type="submit">Enviar</button></p>
+    </form>
+</body>
+</html>
