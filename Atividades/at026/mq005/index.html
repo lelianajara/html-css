@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coruja</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo/mediasqueries.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Orquídea Lélia</h1>
+        <i class="material-icons" id="burguer" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Fotos</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Mais sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Lélia Púrpura (Laelia Purpurata)</h2><br>
+            
+            <p><strong>Nome Científico:</strong> Laelia purpurata</p>
+            <p><strong>Nomes Populares:</strong> Lélia</p>
+            <p><strong>Família:</strong> Família Orchidaceae</p>
+            <p><strong>Origem:</strong> Brasil,Cuba,México,Costa Rica entre outros da América do Sul</p>
+            <h2>Descrição:</h2>
+            <p>Orquídea de rara beleza, a lélia é uma planta epífita, isto é, que se desenvolve sobre outras plantas, usando seus ramos como suporte.</p>
+
+                <p>A planta tem de 20 a 40 cm de altura, folhas grandes, rígidas com pseudobulbo bem desenvolvido.</p>
+                
+                <p>É do tipo simpodial, com rizomas que “caminham”.</p>
+                
+                <p>As flores são grandes, de 6,5 x 6,5 cm até 13 x 13 cm, pétalas delicadas em branco e variações de rosa e o labelo com mácula cor de púrpura.</p>
+                
+                <p>A haste floral tem de 10 a 25 cm de altura e pode apresentar grupos de 5 ou mais flores, muito perfumadas que duram cerca de 20 dias.</p>
+                
+                <p>Laelia é um gênero de orquídeas com 24 espécies aceitas, nativas principalmente do Brasil e do México. Essas orquídeas são famosas entre os cultivadores por suas flores, que possuem uma grande variedade de cores e formas.</p>
+
+                <img src="https://fazfacil.com.br/wp-content/uploads/2013/03/orquidea-lelia-4.jpg" alt="foto" id="orqui0">
+                
+                
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
