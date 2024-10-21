@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <legend>Meu grupo do formulário</legend>
+        <div><input type="text" name="name" placeholder="Digite seu nome"></div>
+        <div><input type="text" name="name" placeholder="Digite seu email"></div>
+        <div>
+        <select name="lista" id="">
+            <option value="non" disabled selected>Qual sua idade</option>
+            <option value="">18</option>
+            <option value="">18 a 25</option>
+            <option value="">25 a 35</option>
+            <option value="">35+</option>
+        </select>
+        </div>
+        
+        <h2>Onde você mora?</h2>
+        <div class="radio-input">
+            <div><input type="radio" name="cidade" id=""><span>São Paulo</span></div>
+            <div><input type="radio" name="cidade" id=""><span>Rio de Janeiro</span></div>
+            <div><input type="radio" name="cidade" id=""><span>Mato Grosso</span></div>
+        </div>
+        
+        <h2>O que você gosta de comer?</h2>
+        <div class="radio-input">
+            <div><input type="checkbox" name="comida" id=""><span>Carne</span></div>
+            <div><input type="checkbox" name="comida" id=""><span>Frutas</span></div>
+            <div><input type="checkbox" name="comida" id=""><span>Doces</span></div>
+        </div>
+        <div><input type="button" value="Submit"></div>
+    </fieldset>
+    </form>
+</body>
+</html>

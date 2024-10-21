@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset {
+        padding: 0 40px;
+        border: 1px solid #ccc;
+}
+
+form legend {
+    font-size: 17px;
+    color: rgb(130, 130,130);
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form select{
+    width:calc(80%+20px);
+    margin-top:30px;
+    padding:10px 13px;
+    display: inline-block;
+
+}
+
+form h2 {
+    margin-top: 20px;
+    color: rgb(60, 60, 60);
+}
+
+.radio-input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.radio-input span {
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
