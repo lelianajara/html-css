@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+/*Maneira mais profissional do clear both que é usando classe no css*/
+.clear{
+    clear: both;
+}
+
+header{
+    background: darkgrey;
+}
+
+.logo{
+    float: left;
+    background: green;
+}
+
+ul{
+    float: left;
+    background: blueviolet;
+    list-style-position: inside;
+    list-style: none;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    background: yellow;
+}
+
+.centro{
+    width: 200px;
+    height: 200px;
+    background: rgba(48, 48, 178, 0.836);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
